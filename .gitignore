@@ -1,0 +1,11 @@
+# deploying
+web/
+
+# git
+*.orig
+
+# other
+*.patch
+
+# vim
+*.swp
