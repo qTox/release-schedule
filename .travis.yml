@@ -1,0 +1,8 @@
+script:
+ - bash .travis/copy-status.sh
+
+after_success:
+  - >
+    test $TRAVIS_PULL_REQUEST == "false"
+    && test $TRAVIS_BRANCH == "master" )
+    && bash .travis/deploy-status.sh
