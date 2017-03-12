@@ -1,4 +1,4 @@
-# Release Schedule: merging
+# Release Schedule: testing
 
 Repo for tracking qTox release schedule.
 
